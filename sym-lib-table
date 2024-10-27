@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XUNPU-TS-1088-AR02016")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/XUNPU-TS-1088-AR02016/XUNPU-TS-1088-AR02016.elibz")(options "")(descr ""))
+  (lib (name "X322525MSB4SI")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/X322525MSB4SI/X322525MSB4SI.elibz")(options "")(descr ""))
+  (lib (name "TYPE-16-C")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/TYPE-C-16/TYPE-16-C.elibz")(options "")(descr ""))
+  (lib (name "TXS0108EPWR")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/TXS0108EPWR/TXS0108EPWR.elibz")(options "")(descr ""))
+  (lib (name "STM32H750VBT6TR")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/STM32H750VBT6TR/STM32H750VBT6TR.elibz")(options "")(descr ""))
+  (lib (name "PESD3V3Z1BSF")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/PESD3V3Z1BSF/PESD3V3Z1BSF.elibz")(options "")(descr ""))
+  (lib (name "LP5907MFX-1.8")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/LP5907MFX-1.8/LP5907MFX-1.8.elibz")(options "")(descr ""))
+  (lib (name "ICM-20948")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/ICM-20948/ICM-20948.elibz")(options "")(descr ""))
+  (lib (name "AMS1117-3.3")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/AMS1117-3.3/AMS1117-3.3.elibz")(options "")(descr ""))
+)
