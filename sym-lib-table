@@ -9,4 +9,6 @@
   (lib (name "LP5907MFX-1.8")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/LP5907MFX-1.8/LP5907MFX-1.8.elibz")(options "")(descr ""))
   (lib (name "ICM-20948")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/ICM-20948/ICM-20948.elibz")(options "")(descr ""))
   (lib (name "AMS1117-3.3")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/AMS1117-3.3/AMS1117-3.3.elibz")(options "")(descr ""))
+  (lib (name "SD_CARD_READER")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/SD_CARD_READER/SD_CARD_READER.elibz")(options "")(descr ""))
+  (lib (name "BMP388")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/parts_lib/BMP388/BMP388.elibz")(options "")(descr ""))
 )
