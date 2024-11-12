@@ -1,4 +1,4 @@
-23741809085245914
+23741809085247358
 AMS1117-3.3
 SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR
 
@@ -20,6 +20,13 @@ audio belton reverb
 0
 7
 7
+BMP388
+SENSORM-SMD_BMP388
+
+
+0
+10
+10
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -88927,6 +88934,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SD_CARD_READER
+TF-SMD_TF-PUSH
+
+
+0
+13
+13
 STM32H750VBT6TR
 QFP-100_L14.0-W14.0-P0.50-LS16.0-BL
 
