@@ -11,4 +11,5 @@
   (lib (name "XUNPU-TS-1088-AR02016")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/parts_lib/XUNPU-TS-1088-AR02016/XUNPU-TS-1088-AR02016.elibz")(options "")(descr ""))
   (lib (name "SD_CARD_READER")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/parts_lib/SD_CARD_READER/SD_CARD_READER.elibz")(options "")(descr ""))
   (lib (name "BMP388")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/parts_lib/BMP388/BMP388.elibz")(options "")(descr ""))
+  (lib (name "LSM6DSOWTR")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/parts_lib/LSM6DSOWTR/LSM6DSOWTR.elibz")(options "")(descr ""))
 )
