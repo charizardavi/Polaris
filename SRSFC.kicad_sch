@@ -6050,6 +6050,16 @@
 	)
 	(wire
 		(pts
+			(xy 401.32 368.3) (xy 401.32 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cdc5ee-6fc3-4c4d-bc6e-7a58e639e83a")
+	)
+	(wire
+		(pts
 			(xy 505.46 275.59) (xy 488.95 275.59)
 		)
 		(stroke
@@ -7520,6 +7530,16 @@
 	)
 	(wire
 		(pts
+			(xy 401.32 368.3) (xy 400.05 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c012c1-5993-4823-ab81-99ab449f431b")
+	)
+	(wire
+		(pts
 			(xy 228.6 222.25) (xy 214.63 222.25)
 		)
 		(stroke
@@ -7933,6 +7953,17 @@
 		)
 		(uuid "7970b670-6529-4708-8663-4c3c80a0d8cb")
 	)
+	(label "IBUS_RX"
+		(at 306.07 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "909f2bc9-a472-4c01-b7cf-51bcfe5ce389")
+	)
 	(label "USB-"
 		(at 99.06 289.56 0)
 		(fields_autoplaced yes)
@@ -8120,6 +8151,17 @@
 		)
 		(uuid "eb325c25-3ab2-40b1-a31e-1c3fa392293e")
 	)
+	(label "IBUS_RX"
+		(at 228.6 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7dcbadf-ca3e-4c3f-9500-6de66a557bae")
+	)
 	(label "servo_5"
 		(at 542.29 355.6 180)
 		(fields_autoplaced yes)
@@ -8130,6 +8172,17 @@
 			(justify right bottom)
 		)
 		(uuid "fa9abafd-58ce-4b10-b5e8-7ee290971859")
+	)
+	(label "IBUS_RX"
+		(at 400.05 368.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fcc27bc1-ab2d-4965-a2f5-622e80aad4f4")
 	)
 	(label "boot0"
 		(at 280.67 115.57 0)
@@ -8633,6 +8686,73 @@
 			(project "SRSFC"
 				(path "/821ee321-99fb-4317-b1a1-0c3eb2c1909b"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 401.32 361.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09e21998-dd66-4f90-9d91-00a52c59e8eb")
+		(property "Reference" "#PWR043"
+			(at 394.97 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 397.51 361.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 401.32 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 401.32 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf49968d-ef0c-4949-a231-1f16dd553295")
+		)
+		(instances
+			(project "SRSFC"
+				(path "/821ee321-99fb-4317-b1a1-0c3eb2c1909b"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14426,6 +14546,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 401.32 364.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9777b911-4214-4921-8236-b1c5ff8e8093")
+		(property "Reference" "#PWR044"
+			(at 405.13 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 397.51 364.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 401.32 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 401.32 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bf50fe9-d1c3-48b0-8f99-8cb1466e428e")
+		)
+		(instances
+			(project "SRSFC"
+				(path "/821ee321-99fb-4317-b1a1-0c3eb2c1909b"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 275.59 334.01 90)
 		(unit 1)
@@ -14889,6 +15076,79 @@
 			(project "SRSFC"
 				(path "/821ee321-99fb-4317-b1a1-0c3eb2c1909b"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 406.4 364.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1468804-f2f0-4b09-a4a0-362262a216f3")
+		(property "Reference" "J8"
+			(at 408.94 363.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IBUS_RX"
+			(at 408.94 365.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 406.4 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 406.4 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 406.4 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "375564b6-cb5e-4b40-84f6-b49c4234b297")
+		)
+		(pin "3"
+			(uuid "fbd454df-b00f-41e9-bde4-02034aec81a8")
+		)
+		(pin "1"
+			(uuid "13c190d1-7542-4a50-8f5c-f444cb855838")
+		)
+		(instances
+			(project "SRSFC"
+				(path "/821ee321-99fb-4317-b1a1-0c3eb2c1909b"
+					(reference "J8")
 					(unit 1)
 				)
 			)
