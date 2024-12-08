@@ -1,6 +1,6 @@
 # Polaris Flight Computer
 
-![pcb image](http://url/to/img.png)
+![pcb image](https://raw.githubusercontent.com/charizardavi/Polaris/refs/heads/main/kicad_preview.png)
 
 System clock: 480mhz
 
