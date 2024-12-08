@@ -1,4 +1,7 @@
 # Polaris Flight Computer
+
+![pcb image](http://url/to/img.png)
+
 System clock: 480mhz
 
 Interfaces:
