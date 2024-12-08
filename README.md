@@ -1,5 +1,6 @@
 # Polaris Flight Computer
 System clock: 480mhz
+
 Interfaces:
 - ST-Link
 - USB OTG (type C)
